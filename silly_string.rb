@@ -17,13 +17,13 @@ phrase = "IM NOT SHOUTING"
 
 lowercased_phrase = phrase # Put a . after phrase and use a String method.
 
-puts lowercased_phrase
+puts lowercased_phrase.lowcase
 
 # Challenge 4: Count how many letters are in that big_word
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word # Put a . after big_word and use a String method.
+letter_count = big_word.length # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
